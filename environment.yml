@@ -1,0 +1,20 @@
+name: imprs-hd-lensing
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - camb
+  - fitsio
+  - healpix
+  - healpy
+  - matplotlib-base
+  - notebook
+  - numba
+  - numpy
+  - rich==13.7.*
+  - scipy
+  - pip
+  - pip:
+    - git+https://github.com/glass-dev/glass.git
+    - git+https://github.com/glass-dev/glass.ext.camb.git
+    - git+https://github.com/heracles-ec/heracles.git
