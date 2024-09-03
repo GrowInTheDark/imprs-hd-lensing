@@ -16,6 +16,6 @@ dependencies:
   - scipy
   - pip
   - pip:
-    - git+https://github.com/glass-dev/glass.git
-    - git+https://github.com/glass-dev/glass.ext.camb.git
-    - git+https://github.com/heracles-ec/heracles.git
+    - glass
+    - glass.ext.camb
+    - heracles
