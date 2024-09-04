@@ -18,6 +18,6 @@ dependencies:
   - treecorr
   - pip
   - pip:
-    - glass
+    - git+https://github.com/glass-dev/glass.git
     - glass.ext.camb
     - heracles
