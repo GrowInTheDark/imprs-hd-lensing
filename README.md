@@ -56,6 +56,14 @@ $ conda config --env --remove channels defaults
 
 It is no problem if the last two commands show warnings or errors.
 
+If you ever need to update the environment, you can run the following command:
+
+```console
+$ conda deactivate imprs-hd-lensing
+$ mamba env update -f environment.yml
+$ conda activate imprs-hd-lensing
+```
+
 
 ## Running the code
 
