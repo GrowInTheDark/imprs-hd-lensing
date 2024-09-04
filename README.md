@@ -64,6 +64,18 @@ $ mamba env update -f environment.yml
 $ conda activate imprs-hd-lensing
 ```
 
+If you need to update your GLASS installation, run the following in your environment:
+
+```console
+(imprs-hd-lensing) $ pip install git+https://github.com/glass-dev/glass.git
+```
+
+Alternatively, run this in a new notebook cell and restart the notebook afterwards:
+
+```
+% pip install git+https://github.com/glass-dev/glass.git
+```
+
 
 ## Running the code
 
