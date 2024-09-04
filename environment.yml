@@ -12,7 +12,8 @@ dependencies:
   - notebook
   - numba
   - numpy
-  - rich==13.7.*
+  - python==3.12.*
+  - rich
   - scipy
   - treecorr
   - pip
